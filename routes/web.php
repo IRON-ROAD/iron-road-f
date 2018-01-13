@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+
+route::get('master',['as'=>'master', 'uses'=>'PageController@master']);
+route::get('home',['as'=>'home', 'uses'=>'PageController@home']);
