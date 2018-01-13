@@ -160,7 +160,7 @@
         {{--</li><!-- br-menu-item -->--}}
     </ul><!-- br-sideleft-menu -->
 
-    <label class="sidebar-label pd-x-10 mg-t-25 mg-b-20 tx-info">TRC Revenue System</label>
+    <label class="sidebar-label pd-x-10 mg-t-25 mg-b-20 tx-info">TRC Finance System</label>
 
     {{--<div class="info-list">--}}
         {{--<div class="info-list-item">--}}

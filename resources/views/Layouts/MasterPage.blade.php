@@ -52,7 +52,7 @@
 <body>
 
 <!-- ########## START: LEFT PANEL ########## -->
-<div class="br-logo"><a href=""><span></span>TRC Rev <i>System</i><span></span></a></div>
+<div class="br-logo"><a href=""><span></span>TRC  <i>Finance</i><span></span></a></div>
 @include('Layouts.SideMenu')
 <!-- ########## END: LEFT PANEL ########## -->
 

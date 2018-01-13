@@ -12,4 +12,9 @@ class PageController extends Controller
     {
         return view('Layouts.MasterPage');
     }
+
+    public function login()
+    {
+        return view('login');
+    }
 }

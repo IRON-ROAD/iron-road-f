@@ -16,5 +16,6 @@
 //});
 
 
+route::get('/',['as'=>'login', 'uses'=>'PageController@login']);
 route::get('master',['as'=>'master', 'uses'=>'PageController@master']);
 route::get('home',['as'=>'home', 'uses'=>'PageController@home']);
