@@ -24,6 +24,8 @@ class CreateVouchersTable extends Migration
             $table->string("description");
             $table->unsignedInteger("status_id");
             $table->foreign("status_id")->references("id")->on("status")->onDelete("cascade");
+            $table->unsignedInteger("payee_id");
+            $table->foreign("payee_id")->references("id")->on("payees")->onDelete("cascade");
             $table->timestamps();
         });
     }
