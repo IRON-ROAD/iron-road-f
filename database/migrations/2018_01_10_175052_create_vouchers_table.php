@@ -22,6 +22,8 @@ class CreateVouchersTable extends Migration
             $table->string("invoice_date");
             $table->string("bill_date")->default("");
             $table->string("description");
+            $table->unsignedInteger("status_id");
+            $table->foreign("status_id")->references("id")->on("status")->onDelete("cascade");
             $table->timestamps();
         });
     }
