@@ -29,7 +29,7 @@
     <meta name="description" content="Premium Quality and Responsive UI for Dashboard.">
     <meta name="author" content="ThemePixels">
 
-    <title>TRC Revenue System</title>
+    <title>TRC Finance System</title>
 
     <!-- vendor css -->
     <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -53,7 +53,7 @@
 
 <!-- ########## START: LEFT PANEL ########## -->
 <div class="br-logo"><a href=""><span></span>TRC  <i>Finance</i><span></span></a></div>
-@include('Layouts.SideMenu')
+@include('finance.Layouts.FinanceMenu')
 <!-- ########## END: LEFT PANEL ########## -->
 
 <!-- ########## START: HEAD PANEL ########## -->
@@ -638,7 +638,7 @@
 <!-- ########## START: MAIN PANEL ########## -->
 <div class="br-mainpanel">
 
-@yield('contents')
+    @yield('contents')
 
 
     <footer class="br-footer">

@@ -19,3 +19,10 @@
 route::get('/',['as'=>'login', 'uses'=>'PageController@login']);
 route::get('master',['as'=>'master', 'uses'=>'PageController@master']);
 route::get('home',['as'=>'home', 'uses'=>'PageController@home']);
+
+//-----------------Finance Routes---------------------------------
+route::get('voucher_entry',['as'=>'voucher_entry', 'uses'=>'PageController@voucher_entry']);
+route::post('insert_voucher',['as'=>'insert_voucher', 'uses'=>'VoucherController@insert_voucher']);
+
+
+//----------------/finance routes--------------------------------

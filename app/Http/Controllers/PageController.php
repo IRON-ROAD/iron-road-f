@@ -17,4 +17,13 @@ class PageController extends Controller
     {
         return view('login');
     }
+
+    //------------Finance------------
+    public function voucher_entry()
+    {
+        return view('finance.voucher_entry');
+    }
+
+    //-------------------------------
+
 }
