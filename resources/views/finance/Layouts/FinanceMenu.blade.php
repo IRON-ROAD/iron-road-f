@@ -14,30 +14,32 @@
             </a><!-- br-menu-link -->
         </li><!-- br-menu-item -->
         <li class="br-menu-item">
-            <a href="" class="br-menu-link @yield('')" >
+            <a href="{{URL::route('received_voucher')}}" class="br-menu-link @yield('received_voucher')" >
                 <i class="fa fa-ticket tx-24"></i>
                 <span class="menu-item-label">Received Voucher</span>
             </a><!-- br-menu-link -->
         </li><!-- br-menu-item -->
 
         <li class="br-menu-item">
-            <a href="" class="br-menu-link @yield('')" >
+            <a href="{{URL::route('paid_voucher')}}" class="br-menu-link @yield('paid_voucher')" >
                 <i class="fa fa-ticket tx-24"></i>
                 <span class="menu-item-label">Paid Voucher(s)</span>
             </a><!-- br-menu-link -->
         </li><!-- br-menu-item -->
         <li class="br-menu-item">
-            <a href="" class="br-menu-link @yield('')" >
+            <a href="{{URL::route('unpaid_voucher')}}" class="br-menu-link @yield('unpaid_voucher')" >
                 <i class="fa fa-ticket tx-24"></i>
                 <span class="menu-item-label">Unpaid Voucher(s)</span>
             </a><!-- br-menu-link -->
         </li><!-- br-menu-item -->
         <li class="br-menu-item">
-            <a href="" class="br-menu-link @yield('')" >
+            <a href="{{URL::route('dropped_voucher')}}" class="br-menu-link @yield('dropped_voucher')" >
                 <i class="fa fa-ticket tx-24"></i>
-                <span class="menu-item-label">Drop Voucher</span>
+                <span class="menu-item-label">Dropped Voucher</span>
             </a><!-- br-menu-link -->
         </li><!-- br-menu-item -->
+
+
 
 
 

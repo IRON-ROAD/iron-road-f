@@ -24,6 +24,26 @@ class PageController extends Controller
         return view('finance.voucher_entry');
     }
 
+    public function received_voucher()
+    {
+        return view('finance.received_voucher');
+    }
+
+    public function paid_voucher()
+    {
+        return view('finance.paid_voucher');
+    }
+
+    public function unpaid_voucher()
+    {
+        return view('finance.unpaid_voucher');
+    }
+
+    public function dropped_voucher()
+    {
+        return view('finance.dropped_voucher');
+    }
+
     //-------------------------------
 
 }
